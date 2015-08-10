@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d,e;
+    while(scanf("%d",&a)==1){
+        for(b=1;b<=a;b++){
+            scanf("%d%d%d",&c,&d,&e);
+            if(c<=20&&d<=20&&e<=20){
+                printf("Case %d: good\n",b);
+            }
+            else{
+                printf("Case %d: bad\n",b);
+            }
+        }
+    }
+    return 0;
+}
